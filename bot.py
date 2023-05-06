@@ -14,7 +14,7 @@ async def main():
     				chat = await app.get_chat(str(group.strip()))
     				await asyncio.sleep(0.5)
     				await app.join_chat(chat.id)
-    				await asyncio.sleep(400)
+    				await asyncio.sleep(200)
     				print(f"Вступили в группу {group}")
     			except:
     				pass
