@@ -13,7 +13,7 @@ def main():
                 try:
                     app.join_chat(group)
                     print(f"Вступил в группу {group}")
-                    time.sleep(5)
+                    time.sleep(100)
                 except Exception as e:
                     print(f"Ошибка: {e}")
 
